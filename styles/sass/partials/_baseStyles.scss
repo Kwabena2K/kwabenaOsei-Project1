@@ -1,0 +1,32 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1260px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 90px;
+}
+
+.button {
+    padding: 12px 20px;
+    border: none;
+    line-height: 1.6rem;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    font-size: 1rem;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: $headingFont;
+}
+
+.infoButton,
+.aboutButton {
+    color: $primary;
+    background: $secondary;
+}

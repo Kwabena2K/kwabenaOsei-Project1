@@ -1,0 +1,23 @@
+.navBar {
+    font-family: $headingFont;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.45rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding: 20px 0;
+    }
+    .menu {
+        display: flex;
+    }
+    li {
+        margin-right: 50px;
+        // border-bottom: 4px solid $secondary;
+        // padding-bottom: 5px;
+    }
+}

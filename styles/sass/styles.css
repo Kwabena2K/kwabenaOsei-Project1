@@ -323,4 +323,59 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 90px;
+}
+
+.button {
+  padding: 12px 20px;
+  border: none;
+  line-height: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: "Playfair Display";
+}
+
+.infoButton,
+.aboutButton {
+  color: #2C2C2C;
+  background: #4CEEA7;
+}
+
+.navBar {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.45rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+.navBar .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 20px 0;
+}
+.navBar .menu {
+  display: flex;
+}
+.navBar li {
+  margin-right: 50px;
 }/*# sourceMappingURL=styles.css.map */
