@@ -1,5 +1,67 @@
+// Importing font families
 @font-face {
     font-family: "Playfair Display";
     src: url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'), url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
     font-weight: normal;
+}
+
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $bodyFont;
+    font-weight: none;
+    color: $primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+blockquote {
+    font-family: $headingFont;
+    font-weight: normal;
+    color: $primary;
+    margin: 0;
+    font-style: italic;
+    font-weight: 700;
+}
+
+// Set the heading font-sizes
+// h1: 138px
+// h2: 80px
+// h3: 42px
+// h4: 32px
+h1 {
+    font-size: 6.9rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2.1rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+ul,
+li,
+a,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

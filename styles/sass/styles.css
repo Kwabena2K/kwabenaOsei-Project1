@@ -268,4 +268,59 @@ html {
   font-family: "Playfair Display";
   src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"), url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
   font-weight: normal;
+}
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: none;
+  color: #2C2C2C;
+}
+
+h1,
+h2,
+h3,
+h4,
+blockquote {
+  font-family: "Playfair Display";
+  font-weight: normal;
+  color: #2C2C2C;
+  margin: 0;
+  font-style: italic;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 6.9rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+ul,
+li,
+a,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }/*# sourceMappingURL=styles.css.map */
