@@ -262,4 +262,10 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"), url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+  font-weight: normal;
 }/*# sourceMappingURL=styles.css.map */
