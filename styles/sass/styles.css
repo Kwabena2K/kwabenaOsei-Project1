@@ -277,6 +277,7 @@ body {
   font-family: "Roboto";
   font-weight: none;
   color: #2C2C2C;
+  background-color: #FAFAFA;
 }
 
 h1,
@@ -389,9 +390,9 @@ section {
 }
 
 header {
-  background-image: url("../../../assets/header-image.jpg");
+  background-image: url("../../../assets/header-image.jpg"), url("../../../assets/header-box-image.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center, right bottom;
   height: 100vh;
   padding: 20px;
 }
@@ -414,6 +415,7 @@ header {
 }
 .navBar .menu {
   display: flex;
+  border: 2px solid red;
 }
 .navBar li {
   margin-right: 50px;
@@ -428,12 +430,27 @@ header {
   align-items: center;
 }
 .capturedAbout .wrapper {
-  width: 40%;
+  width: 70%;
   text-align: center;
 }
 .capturedAbout p {
   margin-bottom: 40px;
+  text-align: left;
 }
 .capturedAbout h2 {
   max-width: 100%;
+}
+
+footer {
+  background-color: #2C2C2C;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+}
+footer p {
+  color: #FAFAFA;
+  margin: 0 auto;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

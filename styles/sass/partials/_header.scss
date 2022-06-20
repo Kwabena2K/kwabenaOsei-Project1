@@ -8,9 +8,9 @@
 }
 
 header {
-    background-image: url("../../../assets/header-image.jpg");
+    background-image: url("../../../assets/header-image.jpg"), url("../../../assets/header-box-image.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center, right bottom;
     height: 100vh;
     padding: 20px;
 }
