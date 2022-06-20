@@ -379,13 +379,24 @@ section {
   background: #4CEEA7;
 }
 
-.navBar {
-  background-color: #FAFAFA;
+.headerText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 600px;
+  width: 60%;
+  margin: auto;
+}
+
+header {
   background-image: url("../../../assets/header-image.jpg");
-  max-width: 100%;
-  width: 100%;
-  height: 700px;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.navBar {
   font-family: "Playfair Display";
   font-style: italic;
   font-size: 1rem;
@@ -393,12 +404,13 @@ section {
   line-height: 1.45rem;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+  display: flex;
+  padding: 10px 0;
 }
 .navBar .wrapper {
   display: flex;
   align-items: center;
   justify-content: right;
-  padding: 20px 0;
 }
 .navBar .menu {
   display: flex;

@@ -1,0 +1,16 @@
+.headerText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 600px;
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    background-image: url("../../../assets/header-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 20px;
+}
