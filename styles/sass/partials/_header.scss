@@ -5,12 +5,25 @@
     padding-top: 600px;
     width: 60%;
     margin: auto;
+    position: relative;
+    z-index: 3;
+}
+
+.newImage {
+    width: 680px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: 1;
+    img {
+        box-shadow: -5px 10px 0px 40px $tertiary, -5px -8px 0px 40px $tertiary;
+    }
 }
 
 header {
-    background-image: url("../../../assets/header-image.jpg"), url("../../../assets/header-box-image.jpg");
+    background-image: url("../../../assets/header-image.jpg");
     background-size: cover;
-    background-position: center, right bottom;
-    height: 100vh;
+    background-repeat: no-repeat;
+    // height: 100vh;
     padding: 20px;
 }
