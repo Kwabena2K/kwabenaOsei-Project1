@@ -4,12 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     z-index: 3;
+    height: 80vh;
     .wrapper {
         width: 70%;
         text-align: center;
-        margin-top: 100px;
     }
     p {
         margin-bottom: 40px;
@@ -21,7 +20,7 @@
 }
 
 .capturedGallery {
-    margin-bottom: 90px;
+    margin: 90px 0;
     .capturedList {
         display: flex;
         width: 100%;
@@ -32,7 +31,7 @@
     }
 }
 
-.capturedNew {
+.capturedInfo {
     .section-container .columns.image img {
         width: 57%;
         margin-right: auto;
@@ -41,7 +40,7 @@
     .section-container .columns.imageTwo img {
         width: 57%;
         display: flex;
-        box-shadow: -30px 45px 0px -1px $tertiary;
+        box-shadow: -40px 40px 0px -1px $tertiary;
     }
     .section-container {
         display: flex;
@@ -70,39 +69,70 @@
     .section-container>.col>img {
         width: 100%;
     }
-    .wording a {}
 }
 
 .capturedLinks {
     background-color: $Ice;
+    padding-top: 25px;
     .wrapper {
         height: 70vh;
-        // margin-top: 100px;
+        padding: 80px 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
     .info {
-        // margin: 20px 10px;
-        width: 40%;
-        line-height: 1.15;
+        width: 50%;
     }
 }
 
 .capturedProfile {
-    height: 70vh;
+    height: 60vh;
     background-color: $Ice;
     display: flex;
     justify-content: center;
     align-items: center;
     .imgContainer {
         display: inline-block;
-        width: 60%;
+        width: 70%;
+    }
+    .infoContainer {
+        margin-left: 150px
+    }
+    .infoContainer p {
+        margin-bottom: 50px;
+    }
+    .imgContainer img {
+        box-shadow: 32px 38px 0px 5px $tertiary;
     }
     .wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+.contactInformation {
+    background-color: $Ice;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    .contactInfo {
+        width: 20%;
+        margin-top: 175px;
+        margin-left: 200px;
+        p {
+            line-height: 15px;
+        }
+        h4 {
+            font-size: 1.625;
+            letter-spacing: 1.1px;
+            margin-bottom: 30px;
+        }
+        i {
+            padding: 0 8px;
+            padding-bottom: 20px;
+        }
     }
 }

@@ -374,6 +374,7 @@ img {
 .headerText {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding-top: 600px;
   width: 60%;
@@ -388,6 +389,7 @@ img {
   bottom: 0px;
   right: 0;
   z-index: 1;
+  border: 2px solid red;
 }
 .newImage img {
   box-shadow: -5px 10px 0px 40px #FDFA69, -5px -8px 0px 40px #FDFA69;
@@ -400,7 +402,20 @@ header {
   padding: 20px;
 }
 
-.navBar {
+.contactHeader {
+  background-image: url("../../../assets/contact-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contactText {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.navbar {
   font-family: "Playfair Display";
   font-style: italic;
   font-size: 1rem;
@@ -411,16 +426,21 @@ header {
   display: flex;
   padding: 10px 0;
 }
-.navBar .wrapper {
+.navbar .wrapper {
   display: flex;
   align-items: center;
   justify-content: right;
 }
-.navBar .menu {
+.navbar .menu {
   display: flex;
 }
-.navBar li {
+.navbar li {
   margin-right: 50px;
+}
+.navbar a:hover {
+  transition: 0.2s;
+  padding-bottom: 2px;
+  border-bottom: 4px solid #4CEEA7;
 }
 
 .capturedAbout {
@@ -429,13 +449,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   z-index: 3;
+  height: 80vh;
 }
 .capturedAbout .wrapper {
   width: 70%;
   text-align: center;
-  margin-top: 100px;
 }
 .capturedAbout p {
   margin-bottom: 40px;
@@ -446,7 +465,7 @@ header {
 }
 
 .capturedGallery {
-  margin-bottom: 90px;
+  margin: 90px 0;
 }
 .capturedGallery .capturedList {
   display: flex;
@@ -457,56 +476,58 @@ header {
   padding: 15px;
 }
 
-.capturedNew .section-container .columns.image img {
+.capturedInfo .section-container .columns.image img {
   width: 57%;
   margin-right: auto;
   box-shadow: 21px 20px 0px 18px #FDFA69;
 }
-.capturedNew .section-container .columns.imageTwo img {
+.capturedInfo .section-container .columns.imageTwo img {
   width: 57%;
   display: flex;
-  box-shadow: -30px 45px 0px -1px #FDFA69;
+  box-shadow: -40px 40px 0px -1px #FDFA69;
 }
-.capturedNew .section-container {
+.capturedInfo .section-container {
   display: flex;
   flex-wrap: wrap;
 }
-.capturedNew .section-container:nth-child(even) {
+.capturedInfo .section-container:nth-child(even) {
   display: flex;
   flex-direction: row-reverse;
 }
-.capturedNew .col {
+.capturedInfo .col {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
 }
-.capturedNew .col:nth-child(1) {
+.capturedInfo .col:nth-child(1) {
   width: 70%;
 }
-.capturedNew .col:nth-child(2) {
+.capturedInfo .col:nth-child(2) {
   flex: 2;
 }
-.capturedNew .section-container > .col > img {
+.capturedInfo .section-container > .col > img {
   width: 100%;
 }
+
 .capturedLinks {
   background-color: #EFFDF3;
+  padding-top: 25px;
 }
 .capturedLinks .wrapper {
   height: 70vh;
+  padding: 80px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 .capturedLinks .info {
-  width: 40%;
-  line-height: 1.15;
+  width: 50%;
 }
 
 .capturedProfile {
-  height: 70vh;
+  height: 60vh;
   background-color: #EFFDF3;
   display: flex;
   justify-content: center;
@@ -514,12 +535,45 @@ header {
 }
 .capturedProfile .imgContainer {
   display: inline-block;
-  width: 60%;
+  width: 70%;
+}
+.capturedProfile .infoContainer {
+  margin-left: 150px;
+}
+.capturedProfile .infoContainer p {
+  margin-bottom: 50px;
+}
+.capturedProfile .imgContainer img {
+  box-shadow: 32px 38px 0px 5px #FDFA69;
 }
 .capturedProfile .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.contactInformation {
+  background-color: #EFFDF3;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+.contactInformation .contactInfo {
+  width: 20%;
+  margin-top: 175px;
+  margin-left: 200px;
+}
+.contactInformation .contactInfo p {
+  line-height: 15px;
+}
+.contactInformation .contactInfo h4 {
+  font-size: 1.625;
+  letter-spacing: 1.1px;
+  margin-bottom: 30px;
+}
+.contactInformation .contactInfo i {
+  padding: 0 8px;
+  padding-bottom: 20px;
 }
 
 footer {

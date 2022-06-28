@@ -1,4 +1,4 @@
-.navBar {
+.navbar {
     font-family: $headingFont;
     font-style: italic;
     font-size: 1rem;
@@ -20,5 +20,10 @@
         margin-right: 50px;
         // border-bottom: 4px solid $secondary;
         // padding-bottom: 5px;
+    }
+    a:hover {
+        transition: 0.2s;
+        padding-bottom: 2px;
+        border-bottom: 4px solid $secondary;
     }
 }
