@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     z-index: 3;
     height: 80vh;
     .wrapper {
@@ -32,51 +33,60 @@
 }
 
 .capturedInfo {
-    .section-container .columns.image img {
-        width: 57%;
-        margin-right: auto;
-        box-shadow: 21px 20px 0px 18px $tertiary;
-    }
-    .section-container .columns.imageTwo img {
-        width: 57%;
-        display: flex;
-        box-shadow: -40px 40px 0px -1px $tertiary;
-    }
+    height: 100vh;
     .section-container {
         display: flex;
         flex-wrap: wrap;
     }
+    p {
+        padding: 10px 200px;
+    }
+    .section-container:nth-child(odd) {
+        h3 {
+            margin-right: 190px;
+        }
+    }
     .section-container:nth-child(even) {
-        // selecting all the even no. divs with this class
+        /* selecting all the even no. divs with this class */
         display: flex;
-        flex-direction: row-reverse; // img will be on the left side of all even no. rows
+        flex-direction: row-reverse;
+        /* img will be on the left side of all even no. rows */
+        h3 {
+            margin-top: 100px;
+            margin-left: 160px;
+        }
     }
     .col {
-        // making content inside col centered
+        /* making content inside col centered */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
     }
     .col:nth-child(1) {
-        // img will have less space
-        width: 70%;
+        /* img will have less space */
+        flex: 1;
     }
     .col:nth-child(2) {
-        // text will have more space
+        /* text will have more space */
         flex: 2;
     }
     .section-container>.col>img {
         width: 100%;
     }
+    .section-container>.col>img {
+        box-shadow: 21px 20px 0px 18px $tertiary;
+    }
+    .section-container .columns.imageTwo img {
+        box-shadow: -40px 40px 0px -1px $tertiary;
+    }
 }
 
 .capturedLinks {
     background-color: $Ice;
-    padding-top: 25px;
     .wrapper {
         height: 70vh;
-        padding: 80px 0;
+        padding: 90px 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -84,6 +94,15 @@
     }
     .info {
         width: 50%;
+        // display: flex;
+        // flex-direction: column;
+    }
+    h3,
+    .icon {
+        display: inline-block;
+    }
+    i {
+        font-size: 30px;
     }
 }
 
@@ -115,13 +134,9 @@
 
 .contactInformation {
     background-color: $Ice;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
+    height: 100vh;
     .contactInfo {
-        width: 20%;
-        margin-top: 175px;
-        margin-left: 200px;
+        width: 25%;
         p {
             line-height: 15px;
         }
@@ -131,8 +146,7 @@
             margin-bottom: 30px;
         }
         i {
-            padding: 0 8px;
-            padding-bottom: 20px;
+            padding: 0 10px;
         }
     }
 }

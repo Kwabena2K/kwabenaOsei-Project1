@@ -363,12 +363,17 @@ img {
   font-style: italic;
   text-transform: uppercase;
   font-family: "Playfair Display";
+  background-color: #4CEEA7;
 }
 
 .infoButton,
 .aboutButton {
   color: #2C2C2C;
   background: #4CEEA7;
+}
+
+footer {
+  margin: 0;
 }
 
 .headerText {
@@ -449,6 +454,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   z-index: 3;
   height: 80vh;
 }
@@ -476,47 +482,60 @@ header {
   padding: 15px;
 }
 
-.capturedInfo .section-container .columns.image img {
-  width: 57%;
-  margin-right: auto;
-  box-shadow: 21px 20px 0px 18px #FDFA69;
-}
-.capturedInfo .section-container .columns.imageTwo img {
-  width: 57%;
-  display: flex;
-  box-shadow: -40px 40px 0px -1px #FDFA69;
+.capturedInfo {
+  height: 100vh;
 }
 .capturedInfo .section-container {
   display: flex;
   flex-wrap: wrap;
 }
+.capturedInfo p {
+  padding: 10px 200px;
+}
+.capturedInfo .section-container:nth-child(odd) h3 {
+  margin-right: 190px;
+}
 .capturedInfo .section-container:nth-child(even) {
+  /* selecting all the even no. divs with this class */
   display: flex;
   flex-direction: row-reverse;
+  /* img will be on the left side of all even no. rows */
+}
+.capturedInfo .section-container:nth-child(even) h3 {
+  margin-top: 100px;
+  margin-left: 160px;
 }
 .capturedInfo .col {
+  /* making content inside col centered */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .capturedInfo .col:nth-child(1) {
-  width: 70%;
+  /* img will have less space */
+  flex: 1;
 }
 .capturedInfo .col:nth-child(2) {
+  /* text will have more space */
   flex: 2;
 }
 .capturedInfo .section-container > .col > img {
   width: 100%;
 }
+.capturedInfo .section-container > .col > img {
+  box-shadow: 21px 20px 0px 18px #FDFA69;
+}
+.capturedInfo .section-container .columns.imageTwo img {
+  box-shadow: -40px 40px 0px -1px #FDFA69;
+}
 
 .capturedLinks {
   background-color: #EFFDF3;
-  padding-top: 25px;
 }
 .capturedLinks .wrapper {
   height: 70vh;
-  padding: 80px 0;
+  padding: 90px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -524,6 +543,13 @@ header {
 }
 .capturedLinks .info {
   width: 50%;
+}
+.capturedLinks h3,
+.capturedLinks .icon {
+  display: inline-block;
+}
+.capturedLinks i {
+  font-size: 30px;
 }
 
 .capturedProfile {
@@ -554,14 +580,10 @@ header {
 
 .contactInformation {
   background-color: #EFFDF3;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
 }
 .contactInformation .contactInfo {
-  width: 20%;
-  margin-top: 175px;
-  margin-left: 200px;
+  width: 25%;
 }
 .contactInformation .contactInfo p {
   line-height: 15px;
@@ -572,8 +594,7 @@ header {
   margin-bottom: 30px;
 }
 .contactInformation .contactInfo i {
-  padding: 0 8px;
-  padding-bottom: 20px;
+  padding: 0 10px;
 }
 
 footer {
@@ -587,4 +608,42 @@ footer p {
   color: #FAFAFA;
   margin: 0 auto;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  padding-top: 50px;
+}
+
+.right-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FAFAFA;
+}
+.right-side .top {
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.right-side .top input {
+  width: 45%;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.right-side textarea {
+  width: 100%;
+  font-size: 20px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  resize: none;
+}
+.right-side .button {
+  width: 100%;
+  padding: 2px auto;
 }/*# sourceMappingURL=styles.css.map */

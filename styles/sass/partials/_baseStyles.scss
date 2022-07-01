@@ -20,10 +20,15 @@ img {
     font-style: italic;
     text-transform: uppercase;
     font-family: $headingFont;
+    background-color: $secondary;
 }
 
 .infoButton,
 .aboutButton {
     color: $primary;
     background: $secondary;
+}
+
+footer {
+    margin: 0;
 }
