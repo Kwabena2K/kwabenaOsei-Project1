@@ -428,6 +428,11 @@ header {
   z-index: 3;
 }
 
+.blogHeader {
+  background-image: url("../../../assets/blog-header.jpg");
+  height: 70vh;
+}
+
 .navbar {
   font-family: "Playfair Display";
   font-style: italic;
@@ -592,7 +597,7 @@ header {
 }
 .contactInformation .contactInfo {
   margin-top: 150px;
-  margin-left: 100px;
+  margin-left: 200px;
   width: 25%;
   display: inline-block;
 }
@@ -611,6 +616,18 @@ header {
 }
 .contactInformation .social i {
   margin: 20px 10px;
+}
+
+.blogInfo {
+  background-color: #EFFDF3;
+  height: 100vh;
+}
+
+.blogHeader h2 {
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -635,7 +652,7 @@ footer p {
   z-index: 2;
   background: #FAFAFA;
   box-shadow: -40px 40px 0px 2px #FDFA69;
-  height: 80vh;
+  height: 85vh;
   width: 55%;
 }
 
@@ -650,9 +667,7 @@ footer p {
   margin-bottom: 30px;
 }
 .right-side .top input {
-  display: inline-block;
   width: 50%;
-  font-size: 20px;
   padding: 5px;
   border: none;
   border-bottom: 2px solid #4CEEA7;
@@ -666,15 +681,14 @@ footer p {
 }
 .right-side textarea {
   width: 100%;
-  font-size: 20px;
   height: 300px;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   resize: none;
+  border: 2px solid #4CEEA7;
 }
 .right-side .button {
   width: 100%;
-  padding: 2px auto;
-  border: 2px solid red;
+  padding: 10px 297px;
 }/*# sourceMappingURL=styles.css.map */
