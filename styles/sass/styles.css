@@ -409,15 +409,23 @@ header {
 
 .contactHeader {
   background-image: url("../../../assets/contact-header.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100vh;
+  background-position: left;
 }
 
 .contactText {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+.contactText h2 {
+  margin-top: 250px;
+  margin-left: 400px;
+}
+
+.contactHeader {
+  position: relative;
+  z-index: 3;
 }
 
 .navbar {
@@ -580,10 +588,13 @@ header {
 
 .contactInformation {
   background-color: #EFFDF3;
-  height: 100vh;
+  height: 70vh;
 }
 .contactInformation .contactInfo {
+  margin-top: 150px;
+  margin-left: 100px;
   width: 25%;
+  display: inline-block;
 }
 .contactInformation .contactInfo p {
   line-height: 15px;
@@ -593,8 +604,13 @@ header {
   letter-spacing: 1.1px;
   margin-bottom: 30px;
 }
-.contactInformation .contactInfo i {
-  padding: 0 10px;
+.contactInformation .social {
+  display: flex;
+  width: 50%;
+  justify-content: left;
+}
+.contactInformation .social i {
+  margin: 20px 10px;
 }
 
 footer {
@@ -611,39 +627,54 @@ footer p {
 }
 
 .container {
+  margin-top: 100px;
+  margin-left: 600px;
   display: flex;
-  padding-top: 50px;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  background: #FAFAFA;
+  box-shadow: -40px 40px 0px 2px #FDFA69;
+  height: 80vh;
+  width: 55%;
 }
 
 .right-side {
-  width: 50%;
+  width: 80%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #FAFAFA;
+  margin: 50px auto;
+  justify-content: center;
 }
 .right-side .top {
   width: 600px;
-  display: flex;
-  justify-content: flex-start;
   margin-bottom: 30px;
 }
 .right-side .top input {
-  width: 45%;
+  display: inline-block;
+  width: 50%;
   font-size: 20px;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #4CEEA7;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+.right-side .top label {
+  display: block;
+  width: 131px;
 }
 .right-side textarea {
   width: 100%;
   font-size: 20px;
-  height: 100px;
+  height: 300px;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   resize: none;
 }
 .right-side .button {
   width: 100%;
   padding: 2px auto;
+  border: 2px solid red;
 }/*# sourceMappingURL=styles.css.map */

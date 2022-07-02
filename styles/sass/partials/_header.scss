@@ -32,13 +32,23 @@ header {
 
 .contactHeader {
     background-image: url("../../../assets/contact-header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-size: cover;
+    // background-repeat: no-repeat;
     height: 100vh;
+    background-position: left;
 }
 
 .contactText {
     display: flex;
     justify-content: center;
     align-content: center;
+    h2 {
+        margin-top: 250px;
+        margin-left: 400px;
+    }
+}
+
+.contactHeader {
+    position: relative;
+    z-index: 3;
 }
