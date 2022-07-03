@@ -159,9 +159,39 @@
     }
 }
 
+.blogInformation {
+    height: 100vh;
+}
+
 .blogInfo {
     background-color: $Ice;
-    height: 100vh;
+    display: flex;
+    .blogImage {
+        position: absolute;
+        height: 100%;
+        width: 900px;
+        max-width: 100%;
+        bottom: -321px;
+        right: 0px;
+        img {
+            box-shadow: -37px 40px 0px -1px $tertiary;
+        }
+    }
+    .test {
+        border: 5px solid $tertiary;
+        width: 59%;
+        height: 100%;
+        margin-top: 430px;
+        margin-left: auto;
+        text-align: left;
+        .blogContainer {
+            margin: 0 auto;
+            width: 90%;
+        }
+        h3 {
+            padding-top: 50px;
+        }
+    }
 }
 
 .blogHeader {

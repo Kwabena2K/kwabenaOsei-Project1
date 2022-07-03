@@ -458,7 +458,7 @@ header {
 .navbar a:hover {
   transition: 0.2s;
   padding-bottom: 2px;
-  border-bottom: 4px solid #4CEEA7;
+  border-bottom: 3px solid #4CEEA7;
 }
 
 .capturedAbout {
@@ -618,9 +618,39 @@ header {
   margin: 20px 10px;
 }
 
+.blogInformation {
+  height: 100vh;
+}
+
 .blogInfo {
   background-color: #EFFDF3;
-  height: 100vh;
+  display: flex;
+}
+.blogInfo .blogImage {
+  position: absolute;
+  height: 100%;
+  width: 900px;
+  max-width: 100%;
+  bottom: -321px;
+  right: 0px;
+}
+.blogInfo .blogImage img {
+  box-shadow: -37px 40px 0px -1px #FDFA69;
+}
+.blogInfo .test {
+  border: 5px solid #FDFA69;
+  width: 59%;
+  height: 100%;
+  margin-top: 430px;
+  margin-left: auto;
+  text-align: left;
+}
+.blogInfo .test .blogContainer {
+  margin: 0 auto;
+  width: 90%;
+}
+.blogInfo .test h3 {
+  padding-top: 50px;
 }
 
 .blogHeader h2 {
@@ -630,14 +660,13 @@ header {
   align-items: center;
 }
 
-footer {
+.footer {
+  height: 100%;
+  padding: 2px;
   background-color: #2C2C2C;
-  margin: 0;
-  width: 100%;
-  text-align: center;
-  padding: 5px;
+  margin-top: auto;
 }
-footer p {
+.footer p {
   color: #FAFAFA;
   margin: 0 auto;
   text-align: center;
