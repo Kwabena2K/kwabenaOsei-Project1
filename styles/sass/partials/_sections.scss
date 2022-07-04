@@ -1,3 +1,4 @@
+/// Index Page
 .capturedAbout {
     background-color: $Ice;
     width: 100%;
@@ -21,6 +22,7 @@
 }
 
 .capturedGallery {
+    background-color: $White;
     margin: 90px 0;
     .capturedList {
         display: flex;
@@ -33,6 +35,7 @@
 }
 
 .capturedInfo {
+    background-color: $White;
     height: 100vh;
     .section-container {
         display: flex;
@@ -83,7 +86,6 @@
 }
 
 .capturedLinks {
-    background-color: $Ice;
     .wrapper {
         height: 70vh;
         padding: 90px 0;
@@ -108,7 +110,6 @@
 
 .capturedProfile {
     height: 60vh;
-    background-color: $Ice;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,14 +133,15 @@
     }
 }
 
+/// Contact Page
 .contactInformation {
     background-color: $Ice;
-    height: 70vh;
     .contactInfo {
-        margin-top: 150px;
+        margin-top: 180px;
         margin-left: 200px;
         width: 25%;
         display: inline-block;
+        height: 60vh;
         p {
             line-height: 15px;
         }
@@ -159,13 +161,17 @@
     }
 }
 
+/// Blog Page
 .blogInformation {
-    height: 100vh;
+    .commentHeader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
 }
 
 .blogInfo {
-    background-color: $Ice;
-    display: flex;
     .blogImage {
         position: absolute;
         height: 100%;
@@ -177,16 +183,19 @@
             box-shadow: -37px 40px 0px -1px $tertiary;
         }
     }
-    .test {
-        border: 5px solid $tertiary;
+    .wrapper {
+        border-left: 5px solid $tertiary;
+        border-bottom: 5px solid $tertiary;
         width: 59%;
+        display: flex;
+        flex-direction: column;
         height: 100%;
-        margin-top: 430px;
-        margin-left: auto;
-        text-align: left;
+        padding-top: 400px;
+        margin-right: 0;
         .blogContainer {
             margin: 0 auto;
             width: 90%;
+            text-align: left;
         }
         h3 {
             padding-top: 50px;
@@ -200,5 +209,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+.blogForm {
+    textarea {
+        background: transparent;
+        height: 200px;
+    }
+    .button {
+        padding: 10px 20px;
+        width: 100%;
+    }
+}
+
+.commentProfile {
+    .imgContainer {
+        display: inline-block;
+        width: 17%;
+    }
+    .commentContainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    p {
+        margin-left: 50px;
+        width: 50%;
     }
 }

@@ -318,6 +318,14 @@ h4 {
   font-size: 1.6rem;
 }
 
+h5 {
+  font-size: 26px;
+  font-family: "Playfair Display";
+  margin: 15px 0;
+  font-style: italic;
+  letter-spacing: 1.1px;
+}
+
 ul,
 li,
 a,
@@ -339,6 +347,14 @@ p {
   font-family: "Roboto";
   font-weight: 400;
   line-height: 1.6rem;
+}
+
+br {
+  line-height: 1.6rem;
+}
+
+address {
+  font-style: normal;
 }
 
 img {
@@ -370,6 +386,10 @@ img {
 .aboutButton {
   color: #2C2C2C;
   background: #4CEEA7;
+}
+
+section {
+  background-color: #EFFDF3;
 }
 
 footer {
@@ -484,6 +504,7 @@ header {
 }
 
 .capturedGallery {
+  background-color: #FAFAFA;
   margin: 90px 0;
 }
 .capturedGallery .capturedList {
@@ -496,6 +517,7 @@ header {
 }
 
 .capturedInfo {
+  background-color: #FAFAFA;
   height: 100vh;
 }
 .capturedInfo .section-container {
@@ -543,9 +565,6 @@ header {
   box-shadow: -40px 40px 0px -1px #FDFA69;
 }
 
-.capturedLinks {
-  background-color: #EFFDF3;
-}
 .capturedLinks .wrapper {
   height: 70vh;
   padding: 90px 0;
@@ -567,7 +586,6 @@ header {
 
 .capturedProfile {
   height: 60vh;
-  background-color: #EFFDF3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -593,13 +611,13 @@ header {
 
 .contactInformation {
   background-color: #EFFDF3;
-  height: 70vh;
 }
 .contactInformation .contactInfo {
-  margin-top: 150px;
+  margin-top: 180px;
   margin-left: 200px;
   width: 25%;
   display: inline-block;
+  height: 60vh;
 }
 .contactInformation .contactInfo p {
   line-height: 15px;
@@ -618,14 +636,13 @@ header {
   margin: 20px 10px;
 }
 
-.blogInformation {
-  height: 100vh;
+.blogInformation .commentHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.blogInfo {
-  background-color: #EFFDF3;
-  display: flex;
-}
 .blogInfo .blogImage {
   position: absolute;
   height: 100%;
@@ -637,19 +654,22 @@ header {
 .blogInfo .blogImage img {
   box-shadow: -37px 40px 0px -1px #FDFA69;
 }
-.blogInfo .test {
-  border: 5px solid #FDFA69;
+.blogInfo .wrapper {
+  border-left: 5px solid #FDFA69;
+  border-bottom: 5px solid #FDFA69;
   width: 59%;
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  margin-top: 430px;
-  margin-left: auto;
-  text-align: left;
+  padding-top: 400px;
+  margin-right: 0;
 }
-.blogInfo .test .blogContainer {
+.blogInfo .wrapper .blogContainer {
   margin: 0 auto;
   width: 90%;
+  text-align: left;
 }
-.blogInfo .test h3 {
+.blogInfo .wrapper h3 {
   padding-top: 50px;
 }
 
@@ -658,6 +678,29 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.blogForm textarea {
+  background: transparent;
+  height: 200px;
+}
+.blogForm .button {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.commentProfile .imgContainer {
+  display: inline-block;
+  width: 17%;
+}
+.commentProfile .commentContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.commentProfile p {
+  margin-left: 50px;
+  width: 50%;
 }
 
 .footer {
@@ -711,13 +754,13 @@ header {
 .right-side textarea {
   width: 100%;
   height: 300px;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   margin-bottom: 40px;
   resize: none;
   border: 2px solid #4CEEA7;
 }
 .right-side .button {
+  padding: 10px 20px;
   width: 100%;
-  padding: 10px 297px;
 }/*# sourceMappingURL=styles.css.map */
