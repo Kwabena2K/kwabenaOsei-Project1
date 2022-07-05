@@ -48,7 +48,7 @@
         }
     }
     .section-container:nth-child(even) {
-        /* selecting all the even no. divs with this class */
+        /*  even no. divs with this class */
         display: flex;
         flex-direction: row-reverse;
         /* img will be on the left side of all even no. rows */
@@ -65,11 +65,9 @@
         align-items: center;
     }
     .col:nth-child(1) {
-        /* img will have less space */
         flex: 1;
     }
     .col:nth-child(2) {
-        /* text will have more space */
         flex: 2;
     }
     .section-container>.col>img {
@@ -97,8 +95,6 @@
     }
     .info {
         width: 50%;
-        // display: flex;
-        // flex-direction: column;
     }
     h3,
     .icon {
@@ -238,7 +234,6 @@
 }
 
 .right-side {
-    // margin-top: 2rem;
     .form-container {
         margin: 2rem 0;
         display: flex;
