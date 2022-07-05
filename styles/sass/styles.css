@@ -408,7 +408,7 @@ footer {
   z-index: 3;
 }
 
-.newImage {
+.cameraSecond {
   width: 680px;
   position: absolute;
   bottom: -155px;
@@ -416,7 +416,7 @@ footer {
   z-index: 1;
   border: 2px solid red;
 }
-.newImage img {
+.cameraSecond img {
   box-shadow: -5px 10px 0px 40px #FDFA69, -5px -8px 0px 40px #FDFA69;
 }
 

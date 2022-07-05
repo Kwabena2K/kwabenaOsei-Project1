@@ -10,7 +10,7 @@
     z-index: 3;
 }
 
-.newImage {
+.cameraSecond {
     width: 680px;
     position: absolute;
     bottom: -155px;
@@ -30,6 +30,7 @@ header {
     padding: 20px;
 }
 
+// Contact page header
 .contactHeader {
     background-image: url("../../../assets/contact-header.jpg");
     // background-size: cover;
@@ -53,6 +54,7 @@ header {
     z-index: 3;
 }
 
+// Blog header
 .blogHeader {
     background-image: url("../../../assets/blog-header.jpg");
     height: 70vh;
