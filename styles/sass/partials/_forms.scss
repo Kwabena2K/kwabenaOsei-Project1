@@ -12,25 +12,24 @@
 }
 
 .right-side {
-    width: 80%;
+    margin-top: 70px;
+    width: 100%;
     display: flex;
-    margin: 50px auto;
+    // margin-bottom: 30px;
     justify-content: center;
-    .top {
-        width: 600px;
+    .form-container {
+        width: 500px;
         margin-bottom: 30px;
         input {
-            width: 50%;
-            padding: 5px;
+            display: block;
             border: none;
-            border-bottom: 2px solid $secondary;
-            background-color: transparent;
+            background: transparent;
             resize: none;
             outline: none;
         }
         label {
-            display: block;
-            width: 131px;
+            padding-left: 20px;
+            border-bottom: 2px solid $secondary;
         }
     }
     textarea {
@@ -41,9 +40,5 @@
         margin-bottom: 40px;
         resize: none;
         border: 2px solid $secondary;
-    }
-    .button {
-        padding: 10px 20px;
-        width: 100%;
     }
 }

@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 3;
     height: 80vh;
     .wrapper {
         width: 70%;
@@ -36,7 +35,6 @@
 
 .capturedInfo {
     background-color: $White;
-    height: 100vh;
     .section-container {
         display: flex;
         flex-wrap: wrap;
@@ -82,6 +80,9 @@
     }
     .section-container .columns.imageTwo img {
         box-shadow: -40px 40px 0px -1px $tertiary;
+    }
+    .button {
+        margin-bottom: 20px;
     }
 }
 
@@ -168,10 +169,16 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        margin-top: 30px;
     }
 }
 
 .blogInfo {
+    .sideImage {
+        position: absolute;
+        left: 0;
+        bottom: -321px;
+    }
     .blogImage {
         position: absolute;
         height: 100%;
@@ -201,6 +208,24 @@
             padding-top: 50px;
         }
     }
+    .sideImageContainer {
+        width: 25%;
+        height: 100%;
+        margin: 40px;
+        ul {
+            margin: 20px;
+            list-style: inside;
+        }
+        margin-left: 100px;
+    }
+    .columnContainer {
+        margin: 40px 40px;
+        background: $White;
+        p {
+            width: 100%;
+            margin-bottom: 100px;
+        }
+    }
 }
 
 .blogHeader {
@@ -212,21 +237,28 @@
     }
 }
 
-.blogForm {
+.right-side {
+    // margin-top: 2rem;
+    .form-container {
+        margin: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .form-container input {
+        background: transparent;
+    }
+    label {
+        border-bottom: 2px solid $secondary;
+    }
     textarea {
         background: transparent;
-        height: 200px;
-    }
-    .button {
-        padding: 10px 20px;
-        width: 100%;
     }
 }
 
 .commentProfile {
     .imgContainer {
         display: inline-block;
-        width: 17%;
+        width: 7%;
     }
     .commentContainer {
         display: flex;
@@ -234,7 +266,11 @@
         align-items: center;
     }
     p {
-        margin-left: 50px;
+        margin-left: 30px;
+        width: 90%;
+    }
+    .infoContainer {
         width: 50%;
+        margin-top: 50px;
     }
 }
