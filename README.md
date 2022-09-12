@@ -42,8 +42,6 @@ Users should be able to:
 - Mobile-first workflow
 - JavaSript
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 ### Useful resources
 
 - [Example resource 1](https://www.youtube.com/watch?v=lRaL-8qZ0mM&) - This was a thorough breakdown that often helped me really understand how certain flexbox items were moving and position on the web. I really liked this style of teaching from Kevin Powell.
