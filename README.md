@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://https://github.com/Kwabena2K/kwabenaOsei-Project1)
-- Live Site URL: [Add live site URL here](https://multipageweb.netlify.app)
+- Solution URL: (https://https://github.com/Kwabena2K/kwabenaOsei-Project1)
+- Live Site URL: (https://multipageweb.netlify.app)
 
 ## My process
 
