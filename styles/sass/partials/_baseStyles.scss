@@ -1,38 +1,20 @@
 img {
-    max-width: 100%;
-    width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
-.wrapper {
-    max-width: 1260px;
-    width: 90%;
-    margin: 0 auto;
+.flex {
+  display: flex;
+  gap: 1rem;
 }
 
-.button {
-    padding: 12px 20px;
-    border: none;
-    line-height: 1.6rem;
-    text-align: center;
-    letter-spacing: 0.05rem;
-    font-size: 1rem;
-    font-style: italic;
-    text-transform: uppercase;
-    font-family: $headingFont;
-    background-color: $secondary;
+.grid {
+  display: flex;
+  gap: 1rem;
 }
 
-.infoButton,
-.aboutButton {
-    color: $primary;
-    background: $secondary;
-}
-
-section {
-    background-color: $Ice;
-}
-
-footer {
-    margin: 0;
+.container {
+  padding-inline: 2em;
+  max-width: 80rem;
+  margin: 0 auto;
 }

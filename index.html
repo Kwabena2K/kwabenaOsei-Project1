@@ -1,183 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6616413bdf.js" crossorigin="anonymous"></script>
-    <title>KwabenaOsei-Project1</title>
-    <link rel="stylesheet" href="./styles/sass/styles.css">
-</head>
-
-<body>
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Space Tourism</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="assets/favicon-32x32.png" />
+  </head>
+  <body>
     <header>
-        <!-- Navigation -->
-        <nav class="navbar">
-            <div class="wrapper">
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="./blog.html">Blog</a>
-                        </li>
-                        <li>
-                            <a href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </nav>
-        <div class="headerText">
-            <h1>Captured</h1>
-        </div>
+      <a href="index.html">
+        <img src="./assets/shared/logo.svg" id="logo" />
+      </a>
+      <div id="hr"></div>
+      <nav id="navbar-main">
+        <ul>
+          <li>
+            <a href="index.html" class="nav-text active">
+              <span>00</span> HOME
+            </a>
+          </li>
+          <li>
+            <a href="./destination.html" class="nav-text">
+              <span>01</span> DESTINATION
+            </a>
+          </li>
+          <li>
+            <a href="./crew.html" class="nav-text"> <span>02</span> CREW </a>
+          </li>
+          <li>
+            <a href="./technology.html" class="nav-text">
+              <span>03</span> TECHNOLOGY
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button id="nav-toggle">
+        <img src="./assets/shared/icon-hamburger.svg" />
+      </button>
     </header>
 
-    <div class="cameraSecond">
-        <img src="./assets/header-box-image.jpg" alt="">
-    </div>
-
-
-
-
-    <!-- Main Area -->
-    <main id="mainContent">
-        <!-- About section -->
-        <section class="capturedAbout">
-            <div class="wrapper">
-                <h3>What is captured?</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt doloribus modi ad quod, magnam quisquam eligendi ea debitis facere, quo repellat error odio. Consequuntur quos qui quas ullam impedit adipisci dolorum architecto doloribus
-                    nemo quibusdam sed corrupti blanditiis, perspiciatis maiores voluptate asperiores suscipit exercitationem nihil commodi a repudiandae laudantium. Pariatur?</p>
-                <a href="#" class="infoButton button">Find out more</a>
-            </div>
-        </section>
-        <!-- END -->
-
-        <!-- Information section -->
-
-        <section class="capturedInfo">
-
-            <div class="section-container">
-                <div class="col columns image">
-                    <img src="./assets/left-image.jpg" alt="Camera tilted in the air with a background of the sky blurred">
-                </div>
-                <div class="col wording">
-                    <h3>Unlock your skills</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dignissimos eaque velit hic, repellat iste nesciunt rerum fugit voluptates dolor impedit odio vitae repudiandae ipsa harum et nisi consequuntur ratione.</p>
-                    <a href="#" class="infoButton button">Read more</a>
-                </div>
-            </div>
-            <div class="section-container">
-                <div class="col columns imageTwo">
-                    <img src="./assets/right-image.jpg" alt="A man holding a camera in his hands with the focus on the camera with the background blurred">
-                </div>
-                <div class="col wording">
-                    <h3>Getting new gear</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi minus laudantium. Blanditiis commodi dolor pariatur enim vero dolores alias ea totam! Eaque dolorem animi ipsa ullam velit provident voluptas?</p>
-                    <a href="#" class="infoButton button">Read more</a>
-                </div>
-            </div>
-        </section>
-        <!-- END -->
-
-        <!-- Links with icons section  -->
-        <section class="capturedLinks">
-            <div class="wrapper">
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-solid fa-camera"></i>
-                    </div>
-                    <h3>Top picks</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusantium voluptatem minima earum quo excepturi porro? Laboriosam veniam et velit! </p>
-                </div>
-
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-solid fa-users"></i>
-                    </div>
-                    <h3>Community</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusantium voluptatem minima earum quo excepturi porro? Laboriosam veniam et velit! </p>
-                </div>
-
-
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-solid fa-file"></i>
-                    </div>
-                    <h3>Blog</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae accusantium voluptatem minima earum quo excepturi porro? Laboriosam veniam et velit! </p>
-                </div>
-
-                <div class="info">
-                    <div class="icon">
-                        <i class="fa-solid fa-phone-flip"></i>
-                    </div>
-                    <h3>Get in touch</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis et tempore eveniet dignissimos sequi magnam, odit officia quaerat molestias! Asperiores? </p>
-                </div>
-
-            </div>
-        </section>
-        <!-- END -->
-
-        <div class="backgroundImage">
-            <img src="./assets/banner.jpg" alt="An image with a country map laid out with a bag, pencil and camera lens on top spread out.">
-        </div>
-
-
-
-        <!-- Profile section -->
-        <section class="capturedProfile">
-            <div class="wrapper">
-                <div class="imgContainer">
-                    <img src="./assets/small-box.jpg" alt="Stylish photo of a man atop of a mountain with a camera in his hand">
-                </div>
-                <div class="infoContainer">
-                    <h3>This month profile</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vitae earum, quis quo nulla nesciunt laudantium temporibus, velit eius rem necessitatibus enim ducimus aliquid commodi dolorem, vel nisi minus sed sequi maiores? Doloremque
-                        est sunt at nulla, eaque necessitatibus aut.</p>
-                    <a href="#" class="infoButton button">Find out more</a>
-                </div>
-            </div>
-        </section>
-        <!-- END -->
-
-        <!-- Image Gallery -->
-        <section class="capturedGallery">
-            <div class="wrapper">
-                <div class="gallery">
-                    <ul class="capturedList">
-                        <li><img src="./assets/gallery-image-1.jpg" alt="Photo of a camera body in portrait mode"></li>
-                        <li><img src="./assets/gallery-image-2.jpg" alt="Retro camera underneath some leaves in a landscape position"></li>
-                        <li><img src="assets/gallery-image-3.jpg" alt="A Nikon camera in portrait mode with a little bit of blur on the sides"></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!-- Main area END -->
+    <main>
+      <section class="space">
+        <h5 class="spaceHeaderTxt">SO, YOU WANT TO TRAVEL TO</h5>
+        <h1 class="spaceHeader">SPACE</h1>
+        <p class="spaceTxt">
+          Let’s face it; if you want to go to space, you might as well genuinely
+          go to outer space and not hover kind of on the edge of it. Well sit
+          back, and relax because we’ll give you a truly out of this world
+          experience!
+        </p>
+      </section>
+      <button id="exploreBtn">
+        <a href="destination.html" class="explore-link">
+          <h4>EXPLORE</h4>
+        </a>
+      </button>
     </main>
-    <!-- END -->
 
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer">
-            <div class="wrapper">
-                <p>Copyright © 2022 Juno College</p>
-            </div>
-        </div>
-    </footer>
-    <!-- END -->
-</body>
-
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
