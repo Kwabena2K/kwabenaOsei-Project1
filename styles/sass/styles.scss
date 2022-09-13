@@ -9,13 +9,12 @@
 // h2: 80px
 // h3: 42px
 // h4: 32px
-@import "./partials/setup";
-@import "./partials/variables";
-@import "./partials/typography";
-@import "./partials/baseStyles";
-@import "./partials/header";
-@import "./partials/nav";
-@import "./partials/sections";
-@import "./partials/footer";
-@import "./partials/forms";
-@import "./partials/mediaQueries";
+@import "../sass/components/navigation";
+@import "../sass/components/title";
+@import "../sass/components/button";
+@import "../sass/basestyles/base";
+@import "../sass/basestyles/utility";
+@import "../sass/layouts/background";
+@import "../sass/layouts/crew";
+@import "../sass/layouts/destination";
+@import "../sass/layouts/technology";
