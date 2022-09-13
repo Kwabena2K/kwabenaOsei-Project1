@@ -8,7 +8,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
 
@@ -31,18 +30,15 @@ Users should be able to:
 - Solution URL: (https://https://github.com/Kwabena2K/kwabenaOsei-Project1)
 - Live Site URL: (https://multipageweb.netlify.app)
 
-## My process
-
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5
 - SCSS
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - JavaScript
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=lRaL-8qZ0mM&) - This was a thorough breakdown that often helped me really understand how certain flexbox items were moving and position on the web. I really liked this style of teaching from Kevin Powell.
-- [Example resource 2](https://www.youtube.com/watch?v=NlJw4YZAzjg&t=3793s) - Although this was just the homepage, this tutorial is one that I truly recommend to anyone trying to create a fully responsive webpage. I'd recommend it to anyone still learning CSS and HTML.
+- [Resource 1](https://www.youtube.com/watch?v=lRaL-8qZ0mM&) - This was a thorough breakdown that often helped me really understand how certain flexbox items were moving and position on the web. I really liked this style of teaching from Kevin Powell.
+- [Resource 2](https://www.youtube.com/watch?v=NlJw4YZAzjg&t=3793s) - Although this was just the homepage, this tutorial is one that I truly recommend to anyone trying to create a fully responsive webpage. I'd recommend it to anyone still learning CSS and HTML.
