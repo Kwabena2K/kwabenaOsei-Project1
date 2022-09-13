@@ -109,3 +109,18 @@
     max-width: 90%;
   }
 }
+
+.footer {
+  margin: 0 auto;
+  padding: 25px;
+  color: --clr-dark;
+  text-align: center;
+  a {
+    color: hsl(231 77% 90%);
+    text-decoration: none;
+    &:hover {
+      color: #e63946;
+      transition: 0.3 ease-out;
+    }
+  }
+}
